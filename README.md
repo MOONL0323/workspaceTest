@@ -27,3 +27,12 @@ mvn compile
 ```
 mvn exec:java -Dexec.mainClass="com.example.Calculator"
 ```
+
+## 使用UI
+这个项目提供了一个简单的UI界面，用户可以输入任意数字并进行加减乘除运算。
+
+### 运行UI
+在项目根目录下运行以下命令来启动UI：
+```
+java -cp target/classes com.example.Main
+```
